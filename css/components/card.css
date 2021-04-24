@@ -1,0 +1,28 @@
+.cards {
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-dark {
+	background-color: #282922;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+
+.card-dark h3{
+	color: white;
+	padding: 16px;
+}
+
+.card-dark i {
+	padding-top: 16px;
+	color: white;
+	transition: color 1s;
+}
+
+
+.card-dark i:hover {
+	color: #bc140e;
+}
